@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Camila Nahuel" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form name="datosBasicos" action="../index.html" method="">
+        <h1><img src="../Assests/img/footbal.svg" height="50"> Datos Básicos</h1>
+        <div>
+            <label for="perfil"> Describa su perfil</label>
+            <textarea id="perfil" name="perfil" type="text"></textarea>
+        </div>
+        <div>
+            <label for="tipoI">Tipo de identificación</label>
+            <select name="tipoI" id="tipoI">
+                <option value="CC">CC</option>
+                <option value="CE">CE</option>
+                <option value="Passport">Passport</option>
+              </select>
+        </div>
+        <div>
+            <label for="numI">Número de identificación</label>
+            <input id="numI" type="number">
+        </div>
+        <div>
+            <label for="ape"> Apellidos</label>
+            <input id="ape" type="text" name="ape">
+        </div>
+        <div>
+            <label for="nom">Nombres</label>
+            <input id="nom" type="text" name="nom">
+        </div>
+        <div>
+            <label for="gen">Género</label>
+            <input id="genM" name="gen" type="radio">Masculino
+            <input id="genF" name="gen" type="radio">Femenino
+            <input id="genO" name="gen" type="radio">Otre
+        </div>
+        <div>
+            <label for="civ">Estado civil</label>
+            <input id="civS" name="civ" type="radio">Soltero
+            <input id="civC" name="civ" type="radio">Casado
+            <input id="civD" name="civ" type="radio">Divorciado
+            <input id="civV" name="civ" type="radio">Viudo
+            <input id="civU" name="civ" type="radio">Unión libre
+        </div>
+        <div>
+            <label for="tel">Número telefónico</label>
+            <input id="tel" type="num">
+        </div>
+        <div>
+            <label for="dir">Dirección de residencia</label>
+            <input id="dir" type="text">
+        </div>
+        <div>
+            <label for="correo">Correo electrónico de contacto</label>
+            <input id="correo" type="mail" placeholder="usuario@dominio.com">
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input id="pass" type="password" name="pass">
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
