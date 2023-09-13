@@ -16,9 +16,14 @@
             <label for="tipoI">Tipo de identificación</label>
             <select name="tipoI" id="tipoI">
                 <option value="0">Seleccione un Tipo de Documento</option>
-                <option value="CC">CC</option>
-                <option value="CE">CE</option>
-                <option value="Passport">Passport</option>
+                    <optgroup label="Ciudadano"> 
+                        <option value="CC">CC</option>
+                        <option value="TI">TI</option>
+                    </optgroup>
+                    <optgroup label="Extranjero"> 
+                        <option value="CE">CE</option>
+                        <option value="Passport">Passport</option>
+                    </optgroup>
               </select>
         </div>
         <div>
@@ -72,7 +77,6 @@
                 <input type="checkbox" id="messi3" name="messi3" value="o3">
                 <label for="messi3"> Lionel Messi </label>
         </div>
-
 
     </form>
     
