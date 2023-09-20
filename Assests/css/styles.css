@@ -5,11 +5,11 @@ body{
     height: 0;
 }
 body{
-    background-image: url(../img/argentina.jpg);
+    /*background-image: url(../img/argentina.jpg);*/
     background-size: cover;
 }
 h1,h2{
-    color: brown; 
+    color: green; 
     font-family: 'Montserrat:wght', sans-serif;
     font-style: initial;
     font-size: 48px;
@@ -21,9 +21,9 @@ form{
     font-weight: 500;
     font-size: 100%;
 }
-p{
+p,a{
     color: black; 
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 100%;
 }
