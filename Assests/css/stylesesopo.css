@@ -15,16 +15,16 @@ h1{
 table{
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
-    border: 4px dashed yellow;
+    width: 1000px;
+    border: 7px dashed yellow;
     border-collapse: collapse;
     background-color: rgb(21,160,133,.7);
     color: white;
+    text-align: left;
 }
 table th{
     height:50px;
     color: white;
-    background-color: rgb(21,160,133,.7);
 }
 
 a:link{

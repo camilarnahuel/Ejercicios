@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&family=Montserrat:wght@800&family=Mulish&family=Pixelify+Sans:wght@700&display=swap');
+
+h1{
+    color:rgb(255, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+}
+
+#l{
+    text-align: right;
+}
+
+.azul{ /* clase .*/
+    color:blue;
+    text-align: center;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 50px;
+}
+
+.amarillo{
+    color:pink;
+    text-align: right;
+    font-family: 'Croissant One', cursive;
+    font-size: 50px;
+}
+.uwu{
+    font-size: 50px;
+}
+
+.homero{
+    font-style: italic;
+    text-decoration: underline;
+    color: yellow;
+}
