@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Montserrat:wght@800&family=Mulish&display=swap');
+body{
+    margin: 0;
+    width: auto;
+    height: 0;
+    margin-left: 200;
+    margin-right: 200;
+}
+h1{
+    font-style: initial;
+    font-size: 28px;
+    text-align: left;
+}
+
+.esopo{
+    margin: 50px auto;
+    width: 1000px;
+    border: 7px dashed yellow;
+    border-collapse: collapse;
+    background-color: rgb(21,160,133,.7);
+    color: white;
+    text-align: left;
+    padding: 30px 30px 60px 30px;
+}
+
+.esopo h1{
+    color: white;
+    text-align: left;
+}
+
+.esopo img{
+    width:120px;
+    float:left;
+    margin-right: 10px;
+}
+
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: green;
+}
+a:hover{
+    color:blue;
+}
