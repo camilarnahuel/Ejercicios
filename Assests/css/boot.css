@@ -1,0 +1,26 @@
+.title{
+    color: lightblue; 
+    font-style: initial;
+    text-align: center;
+}
+
+.icoo{
+    width: 80px;
+    border: 7px solid white;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+    margin-top: 15px;
+}
+.pictures{
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+p{
+    color:black;
+}
+#tt{
+    color:black;
+
+}
