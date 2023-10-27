@@ -1,5 +1,9 @@
+body{
+    border: 100;
+}
+
+/* bosteros*/
 .title{
-    color: lightblue; 
     font-style: initial;
     text-align: center;
 }
@@ -24,4 +28,39 @@ p{
 #tt{
     color:black;
 
+}
+
+.navbar-custom {
+    background-color: lightblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Messi */
+
+.card-costum{
+    background-color: lightyellow;
+}
+
+.btn-custom{
+    background-color: lightblue!important;
+}
+
+#titulos{
+    padding: 100px;
+}
+
+#titulos h3{
+    text-align: center;
+}
+
+#form h5{
+    text-align: center;
+}
+#form{
+    padding: 100px;
+}
+
+.table-costum{
+    background-color: lightblue;
+    border-style: dashed;
 }
